@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to RelaxMate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loginPage">
+        <h2>Welcome to RelaxMate</h2>
+        <div id="authOptions">
+            <button onclick="showSignIn()">Sign In</button>
+            <button onclick="showSignUp()">Sign Up</button>
+        </div>
+        <div id="signInForm" class="form">
+            <h3>Sign In</h3>
+            <input type="text" id="loginUsername" placeholder="Username">
+            <input type="password" id="loginPassword" placeholder="Password">
+            <button onclick="signIn()">Sign In</button>
+        </div>
+        <div id="signUpForm" class="form hidden">
+            <h3>Sign Up</h3>
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="username" placeholder="Username">
+            <input type="text" id="gender" placeholder="Gender">
+            <input type="number" id="age" placeholder="Age">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="signUp()">Sign Up</button>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>

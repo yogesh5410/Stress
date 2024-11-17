@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - RelaxMate</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header>
+        <h2>Profile</h2>
+    </header>
+    <main>
+        <div id="profileInfo"></div>
+        <div id="profileActions">
+            <button onclick="editProfile()">Edit Profile</button>
+            <button onclick="viewStreak()">View Streak</button>
+            <label>Language: 
+                <select id="languageSelect" onchange="setLanguage()">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <!-- Add more languages as needed -->
+                </select>
+            </label>
+        </div>
+    </main>
+    <script src="profile.js"></script>
+</body>
+</html>

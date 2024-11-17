@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measure Your Stress - RelaxMate</title>
+    <link rel="stylesheet" href="stress_measure.css">
+</head>
+<body>
+    <header>
+        <h2>Measure Your Stress</h2>
+    </header>
+    <main>
+        <form id="stressForm">
+            <!-- Sample questions -->
+            <label>1. How often do you feel overwhelmed?</label>
+            <select name="q1">
+                <option value="0">Never</option>
+                <option value="10">Rarely</option>
+                <option value="20">Sometimes</option>
+                <option value="30">Often</option>
+                <option value="40">Always</option>
+            </select>
+
+            <label>2. Do you struggle to concentrate?</label>
+            <select name="q2">
+                <option value="0">Never</option>
+                <option value="10">Rarely</option>
+                <option value="20">Sometimes</option>
+                <option value="30">Often</option>
+                <option value="40">Always</option>
+            </select>
+
+            <!-- Add more questions similarly -->
+
+            <button type="button" onclick="calculateStress()">Calculate Stress Level</button>
+        </form>
+        <div id="stressResult"></div>
+    </main>
+    <script src="stress_measure.js"></script>
+</body>
+</html>
