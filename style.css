@@ -1,11 +1,16 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 /* General Styles */
 =======
 >>>>>>> 016968ddd9fdf00212c2e7d7e4717b49e561fe99
+>>>>>>> f204d1f19c14da056b2b2e9b34989f2e0dda4f9d
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     background: url('background-image.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -27,6 +32,7 @@ h2, h3 {
 button {
     background-color: rgba(77, 184, 255, 0.8);
 =======
+>>>>>>> f204d1f19c14da056b2b2e9b34989f2e0dda4f9d
     background-color: #1d1e2c;
     color: white;
     text-align: center;
@@ -38,12 +44,17 @@ h2, h3 {
 
 button {
     background-color: #4db8ff;
+<<<<<<< HEAD
+=======
 >>>>>>> 016968ddd9fdf00212c2e7d7e4717b49e561fe99
+>>>>>>> f204d1f19c14da056b2b2e9b34989f2e0dda4f9d
     border: none;
     padding: 10px 20px;
     margin: 5px;
     color: white;
     cursor: pointer;
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     border-radius: 5px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
@@ -69,17 +80,25 @@ button:hover {
 .form {
     margin-top: 20px;
 =======
+>>>>>>> f204d1f19c14da056b2b2e9b34989f2e0dda4f9d
 }
 
 button:hover {
     background-color: #3399ff;
+<<<<<<< HEAD
+=======
 >>>>>>> 016968ddd9fdf00212c2e7d7e4717b49e561fe99
+>>>>>>> f204d1f19c14da056b2b2e9b34989f2e0dda4f9d
 }
 
 .hidden {
     display: none;
 }
 
+<<<<<<< HEAD
+.form {
+    margin-top: 20px;
+=======
 <<<<<<< HEAD
 /* Input Fields */
 input {
@@ -99,4 +118,5 @@ input::placeholder {
 .form {
     margin-top: 20px;
 >>>>>>> 016968ddd9fdf00212c2e7d7e4717b49e561fe99
+>>>>>>> f204d1f19c14da056b2b2e9b34989f2e0dda4f9d
 }
