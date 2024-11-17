@@ -1,0 +1,25 @@
+body {
+    background-color: #1d1e2c;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #4db8ff;
+    padding: 10px;
+    color: white;
+}
+
+.exercise-option {
+    background-color: #3399ff;
+    color: white;
+    margin: 15px;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.exercise-option:hover {
+    background-color: #2673b8;
+}

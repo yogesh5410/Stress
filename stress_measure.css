@@ -1,0 +1,24 @@
+body {
+    background-color: #1d1e2c;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #4db8ff;
+    padding: 10px;
+    color: white;
+}
+
+select, button {
+    background-color: #4db8ff;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#stressResult {
+    margin-top: 20px;
+    font-size: 1.2em;
+}

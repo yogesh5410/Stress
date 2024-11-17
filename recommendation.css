@@ -1,0 +1,21 @@
+body {
+    background-color: #1d1e2c;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #4db8ff;
+    padding: 10px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    font-size: 1.2em;
+}
