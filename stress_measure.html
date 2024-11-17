@@ -12,80 +12,88 @@
     </header>
     <main>
         <form id="stressForm">
-            <!-- Sample questions -->
-            <label>1. How often do you feel overwhelmed?</label>
-            <select name="q1">
-                <option value="0">Never</option>
-                <option value="10">Rarely</option>
-                <option value="20">Sometimes</option>
-                <option value="30">Often</option>
-                <option value="40">Always</option>
-            </select>
-
-            <label>2. Do you struggle with focusing on tasks or making decisions?</label>
-            <select name="q2">
-                <option value="0">Never</option>
-                <option value="10">Rarely</option>
-                <option value="20">Sometimes</option>
-                <option value="30">Often</option>
-                <option value="40">Always</option>
-            </select>
-
-            <label>3. Do you experince trouble sleeping?</label>
-            <select name="q2">
-                <option value="0">Never</option>
-                <option value="10">Rarely</option>
-                <option value="20">Sometimes</option>
-                <option value="30">Often</option>
-                <option value="40">Always</option>
-            </select>
-
-            <label>4. Do you frequently overthink or dwell on past events?</label>
-            <select name="q2">
-                <option value="0">Never</option>
-                <option value="10">Rarely</option>
-                <option value="20">Sometimes</option>
-                <option value="30">Often</option>
-                <option value="40">Always</option>
-            </select>
-
-            <label>5. Do you have recurring negative thoughts about yourself or your future?</label>
-            <select name="q2">
-                <option value="0">Never</option>
-                <option value="10">Rarely</option>
-                <option value="20">Sometimes</option>
-                <option value="30">Often</option>
-                <option value="40">Always</option>
-            </select>
-
-            <label>6. Do you often feel unmotivated to complete daily tasks?</label>
-            <select name="q2">
-                <option value="0">Never</option>
-                <option value="10">Rarely</option>
-                <option value="20">Sometimes</option>
-                <option value="30">Often</option>
-                <option value="40">Always</option>
-            </select>
-
-            <label>7. Have you been consuming more caffeine, alcohol, or other substances?</label>
-            <select name="q2">
-                <option value="0">Never</option>
-                <option value="10">Rarely</option>
-                <option value="20">Sometimes</option>
-                <option value="30">Often</option>
-                <option value="40">Always</option>
-            </select>
-
-            <label>8. Do you feel irritable or short-tempered without a clear reason?</label>
-            <select name="q2">
-                <option value="0">Never</option>
-                <option value="10">Rarely</option>
-                <option value="20">Sometimes</option>
-                <option value="30">Often</option>
-                <option value="40">Always</option>
-            </select>
-            <!-- Add more questions similarly -->
-
+            <ol> <!-- Ordered list starts here -->
+                <li>
+                    <label>How often do you feel overwhelmed?</label>
+                    <select name="q1">
+                        <option value="0">Never</option>
+                        <option value="10">Rarely</option>
+                        <option value="20">Sometimes</option>
+                        <option value="30">Often</option>
+                        <option value="40">Always</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Do you struggle with focusing on tasks or making decisions?</label>
+                    <select name="q2">
+                        <option value="0">Never</option>
+                        <option value="10">Rarely</option>
+                        <option value="20">Sometimes</option>
+                        <option value="30">Often</option>
+                        <option value="40">Always</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Do you experience trouble sleeping?</label>
+                    <select name="q3">
+                        <option value="0">Never</option>
+                        <option value="10">Rarely</option>
+                        <option value="20">Sometimes</option>
+                        <option value="30">Often</option>
+                        <option value="40">Always</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Do you frequently overthink or dwell on past events?</label>
+                    <select name="q4">
+                        <option value="0">Never</option>
+                        <option value="10">Rarely</option>
+                        <option value="20">Sometimes</option>
+                        <option value="30">Often</option>
+                        <option value="40">Always</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Do you have recurring negative thoughts about yourself or your future?</label>
+                    <select name="q5">
+                        <option value="0">Never</option>
+                        <option value="10">Rarely</option>
+                        <option value="20">Sometimes</option>
+                        <option value="30">Often</option>
+                        <option value="40">Always</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Do you often feel unmotivated to complete daily tasks?</label>
+                    <select name="q6">
+                        <option value="0">Never</option>
+                        <option value="10">Rarely</option>
+                        <option value="20">Sometimes</option>
+                        <option value="30">Often</option>
+                        <option value="40">Always</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Have you been consuming more caffeine, alcohol, or other substances?</label>
+                    <select name="q7">
+                        <option value="0">Never</option>
+                        <option value="10">Rarely</option>
+                        <option value="20">Sometimes</option>
+                        <option value="30">Often</option>
+                        <option value="40">Always</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Do you feel irritable or short-tempered without a clear reason?</label>
+                    <select name="q8">
+                        <option value="0">Never</option>
+                        <option value="10">Rarely</option>
+                        <option value="20">Sometimes</option>
+                        <option value="30">Often</option>
+                        <option value="40">Always</option>
+                    </select>
+                </li>
+            </ol> <!-- Ordered list ends here -->
             <button type="button" onclick="calculateStress()">Calculate Stress Level</button>
         </form>
         <div id="stressResult"></div>
